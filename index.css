@@ -1,11 +1,22 @@
 body{
   color: white;
   margin: 0px;
+  padding: 0;
+  height: 100vh;
   background-color: rgb(21,74,129);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+#particles-js{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 #width {
   margin: 7%;
 }
@@ -454,24 +465,3 @@ background-color: white;
 }
 
 
-
-/* # Back to top button */
-/* --------------------------------------------------------------*/ */
-.back-to-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #47b2e4;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  
-}
